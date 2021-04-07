@@ -1,0 +1,349 @@
+a,
+abbr,
+acronym,
+address,
+applet,
+article,
+aside,
+audio,
+b,
+big,
+blockquote,
+body,
+canvas,
+caption,
+center,
+cite,
+code,
+dd,
+del,
+details,
+dfn,
+div,
+dl,
+dt,
+em,
+embed,
+fieldset,
+figcaption,
+figure,
+footer,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+header,
+hgroup,
+html,
+i,
+iframe,
+img,
+ins,
+kbd,
+label,
+legend,
+li,
+mark,
+menu,
+nav,
+object,
+ol,
+output,
+p,
+pre,
+q,
+ruby,
+s,
+samp,
+section,
+small,
+span,
+strike,
+strong,
+sub,
+summary,
+sup,
+table,
+tbody,
+td,
+tfoot,
+th,
+thead,
+time,
+tr,
+tt,
+u,
+ul,
+var,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block
+}
+
+body {
+    line-height: 1
+}
+
+ol,
+ul {
+    list-style: none
+}
+
+blockquote,
+q {
+    quotes: none
+}
+
+blockquote:after,
+blockquote:before,
+q:after,
+q:before {
+    content: '';
+    content: none
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0
+}
+
+html {
+    font-size: 20px
+}
+
+body {
+    transition: all 1s
+}
+
+* {
+    text-decoration: none
+}
+
+
+
+
+body {
+    margin: 0;
+    font-family: 'Roboto',  sans-serif;    
+    background-color: #3DFAFF;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color:#43C59E;
+    height: 90px;
+    align-items: center;
+    padding: 15px 30px;
+}
+
+header span {
+    color: #3D7068;
+    font-size: 85px;
+    font-weight: 600;
+    padding-left: 30px;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.login {
+    display: flex;
+    padding-right: 70px;
+}
+
+.login div {
+    margin-right: 20px;
+}
+
+.inputSize {
+    height: 25px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border-color: #ffffff;
+    box-shadow: 0px 1px 1px 0.25px #ffffff; 
+    opacity: 0.7;
+}
+
+.vFormat {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+}
+
+.email {
+    font-weight: 600;
+    color: #14453D;
+}
+
+.password {
+    font-weight: 600;
+    color: #14453D;
+}
+
+.password a {
+    margin-top: 10px;
+    text-decoration: none;
+    color: #3D7068;
+}
+
+.logbutton {
+    background-color: #3D7068;
+    color: #ffffff;
+    box-shadow: 0px 1px 1px 0.25px;
+    height: 35px;
+    width: 55px;
+    display: flex;
+    margin-top: 22px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    transition: all 0.5s ease;
+}
+
+.logbutton:hover {
+    cursor: pointer;
+    background-color: #34615a;
+}
+
+.content {
+    display: flex;
+    font-family: 'Bebas Neue', sans-serif;
+    justify-content: space-between;
+    margin: 0;
+}
+
+.left {
+    margin-left: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.left p {
+    font-size: 35px;
+    font-weight: 550;
+    padding-top: 50px;
+    margin-left: -230px;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 20px;
+    margin-right: 100px;
+}
+
+.right input {
+    font-size: 18px;
+}
+
+.right input::placeholder {
+    padding-left: 10px;
+}
+
+.header1 {
+    font-weight: 600;
+    font-size: 45px;
+    padding-top: 30px;
+}
+#subheader1 {
+    font-weight: 550;
+    font-size: 30px;
+}
+
+.fullname input {
+    width: 261px;
+}
+
+input::placeholder {
+    font-size: 18px;
+}
+
+.birthday label {
+    color: #3D7068;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.birthday div select {
+    height: 30px;
+    width: 100px;
+}
+
+.genders {
+    display: flex;
+    flex-direction: column;
+}
+
+.genders > label {
+    color:#3D7068;
+    font-weight: 700;
+}
+
+.genderchoices {
+    display: flex;
+    padding-left: 50px;
+}
+
+.genderchoices div {
+    margin-left: 25px;
+}
+
+
+.notice {
+    color: #3D7068;
+}
+
+.signupbutton {
+    background-color: green;
+    height: 55px;
+    border-radius: 10px;
+    color: #ffffff;
+    font-size: 25px;
+    letter-spacing: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+.signupbutton:hover {
+    background-color: #006000;
+}
+
+.formFormat {
+    height: 40px;
+    width: 530px;
+    border-radius: 3px;
+    border: 0.5px #3DFAFF;
+}
+
+#celebrityopt {
+    color: #43C59E;
+}
+
+
+
